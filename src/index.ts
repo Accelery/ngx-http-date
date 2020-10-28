@@ -28,7 +28,7 @@ export class DateHttpInterceptor implements HttpInterceptor {
     );
   }
 
-  convertToDate(body) {
+  private convertToDate(body) {
     if (!!body && typeof body === "object") {
       for (const key of Object.keys(body)) {
         const value = body[key];
