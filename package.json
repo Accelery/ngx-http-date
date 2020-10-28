@@ -1,0 +1,41 @@
+{
+  "name": "ngx-http-date",
+  "version": "0.0.2",
+  "description": "ngx-http-date, simple Angular HTTP Interceptor to cast json datestrings to Dates",
+  "main": "src/index.ts",
+  "keywords": [
+    "angular",
+    "interceptor",
+    "date",
+    "json"
+  ],
+  "scripts": {
+    "lint": "tslint -p tsconfig.json",
+    "postversion": "git push && git push --tags",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "author": "Accelery <team@accelery.be>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Accelery/ngx-http-date.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Accelery/ngx-http-date/issues"
+  },
+  "homepage": "https://github.com/Accelery/ngx-http-date#readme",
+  "devDependencies": {
+    "@types/jest": "^25.1.5",
+    "jest": "^25.2.6",
+    "prettier": "^2.0.2",
+    "ts-jest": "^25.3.0"
+  },
+  "dependencies": {
+    "@angular/common": "~10.1.4",
+    "@angular/core": "~10.1.4",
+    "rxjs": "~6.6.3"
+  }
+}
