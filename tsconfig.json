@@ -11,6 +11,12 @@
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
+    "paths": {
+      "ngx-http-date-interceptor": [
+        "dist/ngx-http-date-interceptor/ngx-http-date-interceptor",
+        "dist/ngx-http-date-interceptor"
+      ]
+    },
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,

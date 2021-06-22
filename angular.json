@@ -3,5 +3,37 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-  }
+    "ngx-http-date-interceptor": {
+      "projectType": "library",
+      "root": "projects/ngx-http-date-interceptor",
+      "sourceRoot": "projects/ngx-http-date-interceptor/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/ngx-http-date-interceptor/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ngx-http-date-interceptor/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/ngx-http-date-interceptor/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ngx-http-date-interceptor/src/test.ts",
+            "tsConfig": "projects/ngx-http-date-interceptor/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-http-date-interceptor/karma.conf.js"
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "ngx-http-date-interceptor"
 }
