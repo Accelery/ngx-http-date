@@ -35,5 +35,7 @@
       }
     }
   },
-  "defaultProject": "ngx-http-date-interceptor"
+  "cli": {
+    "analytics": false
+  }
 }
