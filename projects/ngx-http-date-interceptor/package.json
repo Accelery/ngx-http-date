@@ -1,6 +1,6 @@
 {
   "name": "ngx-http-date-interceptor",
-  "version": "1.4.1",
+  "version": "14.0.0",
   "peerDependencies": {
     "@angular/common": "^14.0.0",
     "@angular/core": "^14.0.0"
