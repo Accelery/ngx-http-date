@@ -1,9 +1,9 @@
 {
   "name": "ngx-http-date-interceptor",
-  "version": "15.0.0",
+  "version": "15.0.1",
   "peerDependencies": {
-    "@angular/common": "^15.0.0",
-    "@angular/core": "^15.0.0"
+    "@angular/common": "^13.0.0 || ^14.0.0 || ^15.0.0",
+    "@angular/core": "^13.0.0 || ^14.0.0 || ^15.0.0"
   },
   "dependencies": {
     "tslib": "^2.3.0"
