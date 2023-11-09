@@ -1,6 +1,6 @@
 {
   "name": "ngx-http-date",
-  "version": "15.0.1",
+  "version": "17.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
