@@ -1,10 +1,10 @@
 import {
+  HTTP_INTERCEPTORS,
   HttpEvent,
   HttpHandler,
   HttpInterceptor,
   HttpRequest,
   HttpResponse,
-  HTTP_INTERCEPTORS,
 } from '@angular/common/http';
 import { Provider } from '@angular/core';
 import { Observable } from 'rxjs';
