@@ -10,7 +10,7 @@ import { Provider } from '@angular/core';
 import { Observable } from 'rxjs';
 import { tap } from 'rxjs/operators';
 
-class DateHttpInterceptor implements HttpInterceptor {
+export class DateHttpInterceptor implements HttpInterceptor {
   iso8601 =
     /^\d{4}-[01]\d-[0-3]\dT[0-2]\d:[0-5]\d:[0-5]\d\.\d+([+-][0-2]\d:[0-5]\d|Z)$/;
 
